@@ -1,4 +1,1 @@
 .da.mgtv.com
-.v0.mgtv.com
-.v1.mgtv.com
-.bz.mgtv.com
