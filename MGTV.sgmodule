@@ -4,6 +4,8 @@
 [URL Rewrite]
 #播放页开通提示移除
 http://vip.bz.mgtv.com/client/dynamic_entry - reject
+#开屏
+^https?://mobile.da.mgtv.com\/m\/page - reject
 
 [Script]
 mgtv1 = type=http-request, pattern=^http[s]?:\/\/mobile\.api\.mgtv\.com\/v[0-9]\/(playlist|video\/album|video\/relative|video\/list).*$, script-path=https://raw.githubusercontent.com/yangxiaoyxt/Rewrite/main/mgtv1.js, timeout=60
@@ -21,8 +23,6 @@ MGTV = type=http-request, pattern=https://pad.api.mgtv.com/v8/video/getSource, s
 #mac
 MGTV = type=http-request, pattern=https://pcc.api.mgtv.com/video/getSource, script-path=https://raw.githubusercontent.com/yangxiaoyxt/Rewrite/main/MGTV.js, timeout=60
 
-#AD
-https://mobile.da.mgtv.com\/m\/page - reject
 
 [MITM]
 hostname = %APPEND% *.mgtv.com, pad.api.mgtv.com, pcc.api.mgtv.com
