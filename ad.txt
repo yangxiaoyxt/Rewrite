@@ -1,4 +1,4 @@
 .da.mgtv.com
-.iphone.v0.mgtv.com
-.iphone.v1.mgtv.com
+.v0.mgtv.com
+.v1.mgtv.com
 .bz.mgtv.com
