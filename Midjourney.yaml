@@ -2,9 +2,7 @@
 payload:
   - DOMAIN,midjourney.com
   - DOMAIN-KEYWORD,midjourney
-  - DOMAIN,creativemarket.com
-  - DOMAIN,gfxtra31.com
-  - DOMAIN,grok.com
-  - DOMAIN,x.ai
-  - DOMAIN,.x.ai
-  
+  - DOMAIN-SUFFIX,creativemarket.com
+  - DOMAIN-SUFFIX,gfxtra31.com
+  - DOMAIN-SUFFIX,grok.com
+  - DOMAIN-SUFFIX,x.ai
