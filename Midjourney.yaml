@@ -1,7 +1,6 @@
 # NAME: midjourney
 payload:
   - DOMAIN-SUFFIX,midjourney.com
-  - DOMAIN-KEYWORD,midjourney
   - DOMAIN-SUFFIX,creativemarket.com
   - DOMAIN-SUFFIX,gfxtra31.com
   - DOMAIN-SUFFIX,grok.com
