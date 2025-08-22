@@ -1,5 +1,5 @@
 # NAME: dns  
 payload:
 # dns
-  - DOMAIN-SUFFIX,1.1.1.1
-  - DOMAIN-SUFFIX,8.8.8.8
+ IP-CIDR,1.1.1.1
+ IP-CIDR,8.8.8.8
